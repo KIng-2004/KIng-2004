@@ -1,0 +1,54 @@
+
+#top{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+#moto{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.container{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    background-color: white;
+    width: max-content;
+   column-gap: 3px;
+   
+
+    
+}
+.form{
+    
+    border: 1px solid black;
+    justify-content: space-between;
+    
+}
+.continue{
+    border: 1px solid black;
+    justify-content: space-between;
+    
+}
+    
+
+
+img{
+    width: 800px auto ;
+    height:  800px auto ;
+    position: absolute;
+    
+}
+form{
+    
+   
+
+}
+span {
+    padding:  20px;
+}
